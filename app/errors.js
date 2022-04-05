@@ -6,6 +6,7 @@ class BadRequestError extends Error {
     }
 }
  
+
 class ErrorHandler {
     constructor(){
         this.handleError = (error, responseStream = null) => {

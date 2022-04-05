@@ -4,5 +4,4 @@ const handlePromise = (promise) => {
         .catch((error) => [error, undefined]);
 };
 
-
 module.exports = handlePromise;
