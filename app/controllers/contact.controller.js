@@ -16,6 +16,7 @@ exports.delete = (req, res)=>{
 exports.deleteAll = (req, res)=>{
     res.send({message: "deleteAll handler"});
 };
+
 exports.findAllFavorite = (req, res)=>{
     res.send({message: "findAllFavorite handler"});
 };
